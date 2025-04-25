@@ -1,0 +1,165 @@
+:root {
+    --color-primary: #7380ec;
+    --color-danger: #ff7782;
+    --color-success: #41f1b6;
+    --color-warning: #ffbb55;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-info-light: #dce1eb;
+    --color-dark: #363939;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem (var(--color-light));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.88rem;
+    background: var(--color-background);
+    user-select: none;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: var(--color-background);
+    /* Warna secondary biru tua */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    color: #2F4A6D;
+}
+
+header p {
+    color: #2F4A6D;
+}
+
+nav {
+    height: 70px;
+    background-color: #2F4A6D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #2f4a6f;
+    color: #fff;
+}
+
+.login-register a {
+    margin-right: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, box-shadow 0.9s, color 0.9s;
+}
+
+.login-register a#login {
+    background-color: #fff;
+    color: #2F4A6D;
+}
+
+.login-register a#register {
+    background-color: #fff;
+    color: #2F4A6D;
+}
+
+.login-register a:hover {
+    background-color: #1d2c3e;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 251, 251, 0.5);
+}
+
+.card {
+    max-width: 540px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #2F4A6D;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #2F4A6D;
+}
+
+footer {
+    background-color: #2F4A6D;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+.custom-card-img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+.custom-card-text {
+    text-align: justify;
+}
