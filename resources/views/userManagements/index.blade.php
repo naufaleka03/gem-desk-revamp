@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container-fluid px-4">
-    <h1>User Management</h1>
+    <h1>User Management/Users Table</h1>
 
     @if ($message = Session::get('success'))
         <div class="alert alert-success" role='alert' id="alert" style="margin-top: 1%">
